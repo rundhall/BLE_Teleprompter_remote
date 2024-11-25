@@ -92,19 +92,19 @@ void loop() {
 
         switch (i) {            
             case 0:
-                bleKeyboard.write(KEY_MEDIA_PLAY_PAUSE);  
+                bleKeyboard.write(KEY_PAGE_UP);  
                 break;
               case 1:
-                bleKeyboard.write(KEY_MEDIA_MUTE);
+                bleKeyboard.write(KEY_PAGE_DOWN);
                 break;
               case 2:
-                bleKeyboard.write(KEY_MEDIA_VOLUME_UP);
+                bleKeyboard.write(KEY_TAB);
                 break;
               case 3:
-                  bleKeyboard.write(KEY_MEDIA_VOLUME_DOWN);
+                  bleKeyboard.write(KEY_INSERT);
                 break;
               case 4:
-                  bleKeyboard.press(KEY_ESC); 
+                  bleKeyboard.press(KEY_HOME); 
                 break;      
           } //End  switch (integerFromPC)
           delay(100);
